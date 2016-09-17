@@ -68,9 +68,13 @@ hr.star-primary:after {
   margin: 0 auto;
 }
 header {
-  text-align: center;
-  background: #fcb350;
-  color: white;
+  /*text-align: center;*/
+  background-image:url("../img/wallpaper.png");
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:contain;
+  /*<background: #fcb350;*/
+
 }
 header .container {
   padding-top: 100px;
@@ -188,6 +192,13 @@ section h2 {
 section.success {
   background: #fcb350;
   color: white;
+}
+section.descripcion {
+  background: #fcc357;
+  color: white;
+ 
+  margin-bottom: 5cm;
+  
 }
 @media (max-width: 767px) {
   section {
