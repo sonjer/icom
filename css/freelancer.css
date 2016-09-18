@@ -68,11 +68,8 @@ hr.star-primary:after {
   margin: 0 auto;
 }
 header {
-  /*text-align: center;*/
-  background-image:url("../img/wallpaper.png");
-  background-repeat:no-repeat;
-  background-attachment:fixed;
-  background-size:contain;
+  text-align: center;
+  
   /*<background: #fcb350;*/
 
 }
