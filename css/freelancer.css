@@ -540,9 +540,9 @@ fieldset[disabled] .btn-success.active {
     left: 50%;
     z-index: 3;
     color: #fff;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
-    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    text-shadow: 2px 2px 4px #000000;
       -webkit-transform: translate3d(-50%,-50%,0);
          -moz-transform: translate3d(-50%,-50%,0);
           -ms-transform: translate3d(-50%,-50%,0);
@@ -582,7 +582,7 @@ fieldset[disabled] .btn-success.active {
     height: 100%;
     z-index: 2;
     background-color: #080d15;
-    opacity: .7;
+    opacity: .1;
 }
 
 /********************************/
@@ -604,27 +604,47 @@ fieldset[disabled] .btn-success.active {
 /********************************/
 .fade-carousel .slides .slide-1, 
 .fade-carousel .slides .slide-2,
-.fade-carousel .slides .slide-3 {
+.fade-carousel .slides .slide-3,
+.fade-carousel .slides .slide-4,
+.fade-carousel .slides .slide-5,
+.fade-carousel .slides .slide-6,
+.fade-carousel .slides .slide-7,
+.fade-carousel .slides .slide-8 {
   height: 100vh;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 .fade-carousel .slides .slide-1 {
-  background-image: url(https://ununsplash.imgix.net/photo-1416339134316-0e91dc9ded92?q=75&fm=jpg&s=883a422e10fc4149893984019f63c818); 
+  background-image: url("fotosBanner_1.jpg"); 
 }
 .fade-carousel .slides .slide-2 {
-  background-image: url(https://ununsplash.imgix.net/photo-1416339684178-3a239570f315?q=75&fm=jpg&s=c39d9a3bf66d6566b9608a9f1f3765af);
+  background-image: url("fotosBanner_2.jpg");
 }
 .fade-carousel .slides .slide-3 {
-  background-image: url(https://ununsplash.imgix.net/photo-1416339276121-ba1dfa199912?q=75&fm=jpg&s=9bf9f2ef5be5cb5eee5255e7765cb327);
+  background-image: url("fotosBanner_3.jpg");
+}
+.fade-carousel .slides .slide-4 {
+  background-image: url("fotosBanner_4.jpg");
+}
+.fade-carousel .slides .slide-5{
+  background-image: url("fotosBanner_5.jpg");
+}
+.fade-carousel .slides .slide-6 {
+  background-image: url("fotosBanner_6.jpg");
+}
+.fade-carousel .slides .slide-7 {
+  background-image: url("fotosBanner_7.jpg");
+}
+.fade-carousel .slides .slide-8 {
+  background-image: url("fotosBanner_8.jpg");
 }
 
 /********************************/
 /*          Media Queries       */
 /********************************/
-@media screen and (min-width: 980px){
-    .hero { width: 980px; }    
+@media screen and (min-width: 800px){
+    .hero { width: 800px; }    
 }
 @media screen and (max-width: 640px){
     .hero h1 { font-size: 4em; }    
